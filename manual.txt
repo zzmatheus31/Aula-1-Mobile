@@ -1,0 +1,36 @@
+           -----PASSO A PASSO-----
+
+criar pasta na area de trabalho
+abrir ela e colocar cmd no nome 
+
+dentro do cmd:
+npx create-expo-app@latest *noma qualquer* --template
+
+cd *nome escolhido*
+
+dir (exibe todo o conteudo da pasta)
+
+code . (abre a pasta no visual studio)
+
+npm run android
+
+(dentro do vscode é possivel fazer as alterações direto no código)
+
+-----------------------------------
+criar repositorio dentro do git hub
+---------------------
+
+Dentro da pasta clique em qlq area vazia e clique em "git bash"
+
+dentro do git digite:
+
+git init (para iniciar o git)
+
+git add . (para adicionar tudo, o "." significa tudo)
+
+git commit -m "nome do repositorio" 
+
+git branch -M main
+git remote add origin *link do repositorio*
+
+git push -u origin main
